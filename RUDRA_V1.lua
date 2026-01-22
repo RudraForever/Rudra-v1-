@@ -15,7 +15,7 @@ local WHITELIST_URL = "https://raw.githubusercontent.com/RudraForever/Rudra-v1-/
 
 -- ================= KILL SWITCH =================
 local success, response = pcall(function()
-    return game:HttpGetAsync(STATUS_URL)
+    return game:HttpGet(STATUS_URL)
 end)
 
 if not success or not response then
