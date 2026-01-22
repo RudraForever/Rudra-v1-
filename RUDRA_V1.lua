@@ -10,7 +10,7 @@ if not lp then return end
 
 ---------------- CONFIG ----------------
 local SPAM_LINE_LEN = 170
-local WARNING_LINE_LEN = 140
+local WARNING_LINE_LEN = 170
 local DEFAULT_DELAY = 1.5
 local WARNING_DELAY = 20
 
