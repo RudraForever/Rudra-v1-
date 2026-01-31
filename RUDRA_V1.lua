@@ -9,8 +9,8 @@ local lp = Players.LocalPlayer
 if not lp then return end
 
 ---------------- CONFIG ----------------
-local SPAM_LINE_LEN = 170
-local WARNING_LINE_LEN = 180
+local SPAM_LINE_LEN = 140
+local WARNING_LINE_LEN = 150
 local DEFAULT_DELAY = 1.5
 local WARNING_DELAY = 20
 
